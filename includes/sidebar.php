@@ -156,7 +156,7 @@
           ?>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-address-book"></i>
+              <i class="nav-icon fas fa-address-card"></i>
               <p>
                 Enrollment
                 <i class="right fas fa-angle-left"></i>
@@ -228,7 +228,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-folder"></i>
+              <i class="nav-icon fas fa-folder-open" style="color: #af1818;"></i>
               <p>
                 Subjects
                 <i class="right fas fa-angle-left"></i>
@@ -259,7 +259,7 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fas fa-folder nav-icon"></i>
+                  <i class="fas fa-list nav-icon"></i>
                   <p>Subjects List
                   <i class="right fas fa-angle-left"></i>
                   </p>
@@ -283,7 +283,32 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-folder"></i>
+              <i class="nav-icon fas fa-folder-open" style="color: #af1818;"></i>
+              <p>
+                Strands
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../strands/add.strand.php" class="nav-link">
+                  <i class="fas fa-folder-plus nav-icon"></i>
+                  <p>Add Strand
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../strands/list.strand.php" class="nav-link">
+                  <i class="fas fa-list nav-icon"></i>
+                  <p>Strand's Lists
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-folder-open" style="color: #af1818;"></i>
               <p>
                 Forms
                 <i class="right fas fa-angle-left"></i>
@@ -330,7 +355,7 @@
           </li>
           <li class="nav-item">
             <a href="../academic_year/set.academic.year.php" class="nav-link">
-              <i class="nav-icon fas fa-list"></i>
+              <i class="nav-icon fas fa-store"></i>
               <p>
                 Set Sem and A.Y.
               </p>
